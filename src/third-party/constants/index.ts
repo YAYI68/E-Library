@@ -1,0 +1,4 @@
+
+export const THIRD_PARTY_VENDOR_TYPES = {
+  Library_GATEWAY_PROVIDER: 'Library_GATEWAY_PROVIDER',
+};
