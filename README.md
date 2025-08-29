@@ -10,7 +10,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 * **Node.js**: It's recommended to use a version of Node.js 16 or later.
 * **npm** or **yarn**: A package manager for installing project dependencies. `npm` comes with Node.js.
-* **PostgreSQL**: A local instance of PostgreSQL is required for the backend database. Make sure it's running.
+* **Sqlite**: A local instance of Sqlite is required for the backend database. Make sure it's running.
 
 
 1.  **Install Dependencies**
@@ -50,4 +50,5 @@ OPEN_LIBRARY_API=https://openlibrary.org
     ```
 
     The backend will run on `http://localhost:3000` by default.
+    Here is the live url 
 
