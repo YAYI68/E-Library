@@ -26,17 +26,22 @@ Before you begin, ensure you have the following installed on your machine:
     Create a file named `.env` in the `backend` directory and add the following content. This configures the database connection and the AI gateway.
 
     ```dotenv
-  NODE_ENV=development
-  PORT=3000
-<!-- JWT SECRET -->
-JWT_SECRET=your_jwt_secret_here
-JWT_EXPIRES_IN=3600s
-<!-- # DATABASE URL -->
-DB_PATH=./library.db
-<!-- # THIRD PARTY  -->
-Library_GATEWAY_PROVIDER="openlibrary"
-OPEN_LIBRARY_API=https://openlibrary.org
-    ```
+
+    NODE_ENV=development
+    PORT=3000
+
+  <!-- JWT SECRET -->
+  JWT_SECRET=your_jwt_secret_here
+  JWT_EXPIRES_IN=3600s
+
+  <!-- # DATABASE URL -->
+  DB_PATH=./library.db
+  
+  <!-- # THIRD PARTY  -->
+  Library_GATEWAY_PROVIDER="openlibrary"
+  OPEN_LIBRARY_API=https://openlibrary.org
+
+```
 
 3.  **Run the Backend**
 
