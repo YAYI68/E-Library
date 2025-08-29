@@ -16,17 +16,15 @@ FROM node:20-alpine AS runner
 
 WORKDIR /app
 
-# Debug: Check Node.js and npm versions
-RUN node --version && npm --version
+ENV HUSKY=0
 
-COPY package*.json ./
+USER node
 
-# Debug: Verify package.json exists
-RUN ls -la && cat package.json
+COPY --chown=node:node package*.json ./
 
 RUN npm install --omit=dev
 
-COPY --from=builder /app/dist ./dist
+COPY --chown=node:node --from=builder /app/dist ./dist
 
 EXPOSE 3000
 
