@@ -29,15 +29,12 @@ Before you begin, ensure you have the following installed on your machine:
 
     NODE_ENV=development
     PORT=3000
-
-  <!-- JWT SECRET -->
+    
   JWT_SECRET=your_jwt_secret_here
   JWT_EXPIRES_IN=3600s
 
-  <!-- # DATABASE URL -->
   DB_PATH=./library.db
-  
-  <!-- # THIRD PARTY  -->
+
   Library_GATEWAY_PROVIDER="openlibrary"
   OPEN_LIBRARY_API=https://openlibrary.org
 
