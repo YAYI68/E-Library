@@ -55,4 +55,5 @@ Before you begin, ensure you have the following installed on your machine:
 
     The backend will run on `http://localhost:3000` by default.
     Here is the live url `https://e-library-tf7k.onrender.com/api/v1` 
+    Here is the postman documentation `https://documenter.getpostman.com/view/14724403/2sB3HgR3vw`
 
