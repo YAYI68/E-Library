@@ -42,9 +42,14 @@ Before you begin, ensure you have the following installed on your machine:
     Start the NestJS backend server with the following command:
 
     ```bash
-    <!-- start the app -->
     npm run start:dev
-    <!-- To run test -->
+    ```
+
+4.  **Run the Backend Test**
+
+    Run Test for the NestJS backend server with the following command:
+
+    ```bash
     npm run test
     ```
 
