@@ -29,16 +29,13 @@ Before you begin, ensure you have the following installed on your machine:
 
     NODE_ENV=development
     PORT=3000
-    
-  JWT_SECRET=your_jwt_secret_here
-  JWT_EXPIRES_IN=3600s
+    JWT_SECRET=your_jwt_secret_here
+    JWT_EXPIRES_IN=3600s
+    DB_PATH=./library.db
+    Library_GATEWAY_PROVIDER="openlibrary"
+    OPEN_LIBRARY_API=https://openlibrary.org
 
-  DB_PATH=./library.db
-
-  Library_GATEWAY_PROVIDER="openlibrary"
-  OPEN_LIBRARY_API=https://openlibrary.org
-
-```
+   ```
 
 3.  **Run the Backend**
 
